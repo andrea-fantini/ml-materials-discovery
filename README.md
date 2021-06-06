@@ -1,7 +1,8 @@
 ml-materials-discovery
 ==============================
 
-Accelerate material discovery with machine le
+Accelerate material discovery with machine learning. In this project I use a very small dataset of electrolyte compositions and their lab measured properties to build a model that aims at understanding the relationship between composistion and property. Then I develop a generative model to identify new compositions that maximize the desired property. These compositions are sent to the lab for anlaysis and the process is repeteated. This enables a faster discovery of new materials as opposed to the traditional trial and error method.
+
 
 Project Organization
 ------------
@@ -11,25 +12,15 @@ Project Organization
     │
     ├── figures/            <- Figures saved by scripts or notebooks.
     │
-    ├── notebooks/          <- Jupyter notebooks. Naming convention is a short `-` delimited 
-    │                         description, a number (for ordering), and the creator's initials,
-    │                        e.g. `initial-data-exploration-01-hg`.
-    │
-    ├── output/             <- Manipulated data, logs, etc.
-    │
-    ├── tests/              <- Unit tests.
-    │
     ├── src/      <- Python module with source code of this project.
     │
     ├── environment.yml     <- conda virtual environment definition file.
     │
+    ├── Materials Discovery.ipynb     <- Jupyter Notebook that contains the exploratory data analysis, modeling, and new material generation.
+    │
     ├── LICENSE
     │
-    ├── Makefile            <- Makefile with commands like `make environment`
-    │
-    ├── README.md           <- The top-level README for developers using this project.
-    │
-    └── tox.ini             <- tox file with settings for running tox; see tox.testrun.org
+    └── README.md           <- The top-level README for developers using this project.
 
 
 --------
